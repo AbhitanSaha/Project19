@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-info:hover{
+    background-color: rebeccapurple;
+    color: wheat;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-color: rgb(10, 125, 160);
+    border-style: ridge;
+    border-width:10px ;
+}
+@keyframes example{
+    from{box-shadow: 6px 6px 20px black;}
+    to{box-shadow: 6px 6px 20px blue;}
+}
